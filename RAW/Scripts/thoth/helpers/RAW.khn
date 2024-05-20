@@ -126,3 +126,11 @@ function RAW_ConcentrationBlocker()
     result = ~HasStatus('RAW_CONCENTRATION_BLOCKER')
     return ConditionResult(result.Result, {ConditionError("RAW_ConcentrationBlocker_False")})
 end
+
+function RAW_DurableCheck()
+    if HasPassive('Durable',context.Source).Result then
+        return math.max(2, GetModifier(context.Source.Constitution)*2)
+    else
+        return 1
+    end
+end
