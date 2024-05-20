@@ -39,7 +39,7 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h6f656280gc41bg4d89g81a6g4ab8c113ad8f" version="1"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="RAW_HitDie_D6"/>
+                    <attribute id="Name" type="FixedString" value="RAW_HitDice_D6"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="6f62fed7-7003-4872-b55c-40bff62c8b0c"/>
@@ -47,7 +47,7 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h8d6d6677g3cb0g48e4ga7d7gb05b380c1d0b" version="1"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="RAW_HitDie_D8"/>
+                    <attribute id="Name" type="FixedString" value="RAW_HitDice_D8"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="8a325bec-b265-4469-8843-d832a40d16c6"/>
@@ -55,7 +55,7 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h10c8f740g7380g4814gb614g1830d095eae1" version="1"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="RAW_HitDie_D10"/>
+                    <attribute id="Name" type="FixedString" value="RAW_HitDice_D10"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="10dacaf5-cb54-4989-8898-bea67524338b"/>
@@ -63,7 +63,7 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h12d85de4gd58cg4aa3ga902gbb5c7a9c2c35" version="1"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="RAW_HitDie_D12"/>
+                    <attribute id="Name" type="FixedString" value="RAW_HitDice_D12"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="12d5d1b4-82cd-45b3-9ffe-59d368ec318e"/>
