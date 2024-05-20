@@ -9,6 +9,11 @@
                     <attribute id="Name" type="LSString" value="RAW_EquipWeaponGroup"/>
                     <attribute id="UUID" type="guid" value="a01bbc78-b72c-4aa5-b226-f67adbf8c489"/>
                 </node>
+                <node id="ActionResourceGroupDefinition">
+                    <attribute id="ActionResourceDefinitions" type="LSString" value="12d5d1b4-82cd-45b3-9ffe-59d368ec318e;10dacaf5-cb54-4989-8898-bea67524338b;8a325bec-b265-4469-8843-d832a40d16c6;6f62fed7-7003-4872-b55c-40bff62c8b0c"/>
+                    <attribute id="Name" type="LSString" value="RAW_HitDice"/>
+                    <attribute id="UUID" type="guid" value="d065cc65-2d29-4fd6-bce6-8228d2981658"/>
+                </node>
             </children>
         </node>
     </region>
