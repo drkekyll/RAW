@@ -38,6 +38,7 @@
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h6f656280gc41bg4d89g81a6g4ab8c113ad8f" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="6"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D6"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
@@ -46,6 +47,7 @@
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h8d6d6677g3cb0g48e4ga7d7gb05b380c1d0b" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="8"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D8"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
@@ -54,6 +56,7 @@
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h10c8f740g7380g4814gb614g1830d095eae1" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="10"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D10"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
@@ -62,6 +65,7 @@
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h12d85de4gd58cg4aa3ga902gbb5c7a9c2c35" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="12"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D12"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
