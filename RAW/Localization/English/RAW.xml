@@ -10,7 +10,7 @@
     <content contentuid="h12d85de4gd58cg4aa3ga902gbb5c7a9c2c35" version="1">Hit Die (D12)</content><!-- D12 Hit Die -->
 
     <!-- Action Resource Definition Description -->
-	<content contentuid="h020fffc8g750dg4dd0gb84fg5cf961d7989d" version="2">Hit dice determine your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.  Your character has 1 Hit Die per level, and the die type is determined by your class. After a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you can spend Hit Dice to regain hit points.</content><!-- Hit Dice -->
+	<content contentuid="h020fffc8g750dg4dd0gb84fg5cf961d7989d" version="1">Hit dice determine your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.  Your character has 1 Hit Die per level, and the die type is determined by your class. After a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you can spend Hit Dice to regain hit points.</content><!-- Hit Dice -->
 
     <!-- Condition Error -->
     <content contentuid="h0afc3739g41e7g4c3fgb280g4978d95e03ae" version="1">Can't attune items while in combat</content><!-- Attunement while in combat -->
