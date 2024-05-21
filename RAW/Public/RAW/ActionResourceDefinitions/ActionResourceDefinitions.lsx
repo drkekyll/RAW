@@ -41,7 +41,7 @@
                     <attribute id="DiceType" type="uint32" value="6"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D6"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="6f62fed7-7003-4872-b55c-40bff62c8b0c"/>
                 </node>
@@ -50,7 +50,7 @@
                     <attribute id="DiceType" type="uint32" value="8"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D8"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="8a325bec-b265-4469-8843-d832a40d16c6"/>
                 </node>
@@ -59,7 +59,7 @@
                     <attribute id="DiceType" type="uint32" value="10"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D10"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="10dacaf5-cb54-4989-8898-bea67524338b"/>
                 </node>
@@ -68,7 +68,7 @@
                     <attribute id="DiceType" type="uint32" value="12"/>
                     <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="RAW_HitDice_D12"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="12d5d1b4-82cd-45b3-9ffe-59d368ec318e"/>
                 </node>
