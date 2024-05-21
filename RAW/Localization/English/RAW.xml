@@ -70,6 +70,10 @@
     <content contentuid="h6c541127gda12g4b7cgbfdbg37c49ac85aba" version="1">Dodge</content><!-- Dodge -->
     <content contentuid="h5d311bfdg3b88g4a78gb8fcgbb8645c6a5f7" version="1">Cunning Action</content><!-- Cunning Action -->
     <content contentuid="h0611af1fg455ag4511ga7e5g9768ccd017d8" version="1">Cunning Action: Hide</content><!-- Hide Cunning Action -->
+    <content contentuid="hce24c1c9g2bcbg4901g8f9bg9f10a1cff9a5" version="1">Use Hit Dice (D6)</content><!-- D6 Hit Dice -->
+    <content contentuid="h2301ec45g9f8fg4fa2g8e61gbdfb437b7da1" version="1">Use Hit Dice (D8)</content><!-- D8 Hit Dice -->
+    <content contentuid="h1d3ba4e8g8b51g41efg837dg036fd23e07e2" version="1">Use Hit Dice (D10)</content><!-- D10 Hit Dice -->
+    <content contentuid="hf3fb45d4g707cg4b03g8515g665020c89fda" version="1">Use Hit Dice (D12)</content><!-- D12 Hit Dice -->
 
     <!-- Shout Description -->
     <content contentuid="h1aff6b78gc632g459cgbb15g9c17e56b611a" version="1">Ends the &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; for you and your party members around you.</content><!-- Short Rest -->
