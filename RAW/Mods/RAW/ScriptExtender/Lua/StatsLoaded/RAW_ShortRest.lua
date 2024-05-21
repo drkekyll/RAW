@@ -1,5 +1,15 @@
 local ENUM_RAW_HitDice
 
+local function RAW_AddRecoverHitDicePassive(name)
+    local char = Ext.Stats.Get(name)
+    if RAW_CharIsHero(char) then
+        RAW_PrintIfDebug("\nCharacter: " .. char.Name, RAW_PrintTable_ShortRest)
+        RAW_PrintIfDebug("\tAdding passive: RAW_RecoverHitDice", RAW_PrintTable_ShortRest)
+        char.Passives = "RAW_RecoverHitDice;" .. char.Passives
+        RAW_PrintIfDebug("\tPassives: " .. char.Passives, RAW_PrintTable_ShortRest)
+    end
+end
+
 ---------------------------------------- STATS FUNCTION ----------------------------------------
 
 function RAW_ShortRest()
@@ -17,6 +27,10 @@ function RAW_ShortRest()
     RAW_PrintIfDebug(CentralizedString("Starting the Short Rest Changes"), RAW_PrintTable_ShortRest)
 
     RAW_ApplyStaticData(ENUM_RAW_HitDice, RAW_PrintTable_ShortRest)
+
+    for _, name in pairs(Ext.Stats.GetStats("Character")) do
+        RAW_AddRecoverHitDicePassive(name)
+    end
 
     RAW_PrintIfDebug("\n" .. CentralizedString("Finished the Short Rest Changes"), RAW_PrintTable_ShortRest)
     RAW_PrintIfDebug("====================================================================================================\n", RAW_PrintTable_ShortRest)
